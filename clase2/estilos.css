@@ -1,0 +1,63 @@
+body{
+background-color: rgb(215, 215, 215);
+font-family: 'Courier New', Courier, monospace;
+}
+.subtitulo{
+    color: rgb(114, 162, 120);
+}
+
+.contenido{
+    background-color: rgb(124, 206, 209);
+    padding: 1rem;
+}
+.totales{
+    background-color: rgb(148, 115, 179);
+    padding: 1rem;
+}
+
+
+/* Botonera principal */
+.botonera_principal{
+    border-left: 1rem solid #5ab595;
+    background-color: aliceblue;
+    padding: 2rem;
+}
+.botonera_principal ul{
+    list-style-type: none;
+}
+
+.botonera_principal li{
+display: inline-block;
+padding-left: 0.8rem;
+}
+
+.botonera_principal a{
+text-decoration: none;
+color: black;    
+}
+
+/* ---------Tienda---- */
+.tienda_contenido{
+    padding: 2rem;
+}
+.contenedor_img{
+    width: 25%;
+}
+
+.contenedor_img img{
+    width: 100%;
+}
+
+/* -------CONTACTO ----------------*/
+
+.contacto__contenido{
+    margin: 1rem;
+}
+
+.contacto__input{
+    width: 100%;
+    display: block;
+    margin:0.5rem;
+    padding: 1rem;
+    box-sizing: border-box;
+}
